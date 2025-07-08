@@ -1,4 +1,4 @@
-package gameFood;
+package entity;
 import java.util.Random;
 import java.awt.Point;
 

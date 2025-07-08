@@ -1,4 +1,4 @@
-package gameSnake;
+package entity;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package gameFood;
+package entity;
 
 import java.awt.*;
 import java.awt.Point;

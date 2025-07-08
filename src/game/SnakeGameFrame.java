@@ -1,4 +1,4 @@
-package gameFrame;
+package game;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,14 +9,11 @@ import java.util.Random;
 import java.util.TimerTask;
 import java.util.Timer;
 
-import gameBlock.*;
-import gameCamera.*;
-import gameEnemy.*;
-import gameFood.*;
-import gameImage.IconTool;
-import gameSnake.*;
-import gameScore.*;
-import gameSound.*;
+import entity.*;
+import util.IconTool;
+import util.RankList;
+import util.Score;
+import util.Sound;
 
 
 public class SnakeGameFrame extends JFrame implements KeyListener {
@@ -417,10 +414,6 @@ public class SnakeGameFrame extends JFrame implements KeyListener {
         catch (IOException e) {
 
         }
-    }
-    public static void main(String[] args) {
-        SnakeGameFrame frame = new SnakeGameFrame();
-        frame.setVisible(true);
     }
 
     public abstract static class GameButton extends JButton implements ActionListener {

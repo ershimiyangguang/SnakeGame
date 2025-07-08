@@ -1,4 +1,4 @@
-package gameBlock;
+package entity;
 
 import java.awt.*;
 import java.util.Random;

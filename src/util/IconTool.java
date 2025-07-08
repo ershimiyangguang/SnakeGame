@@ -1,4 +1,4 @@
-package gameImage;
+package util;
 
 
 import javax.swing.*;

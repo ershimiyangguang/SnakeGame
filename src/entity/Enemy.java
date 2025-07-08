@@ -1,7 +1,4 @@
-package gameEnemy;
-
-import gameFrame.SnakeGameFrame;
-import gameSnake.Snake;
+package entity;
 
 import java.awt.*;
 import java.util.Random;

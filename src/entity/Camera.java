@@ -1,4 +1,4 @@
-package gameCamera;
+package entity;
 
 import java.awt.*;
 

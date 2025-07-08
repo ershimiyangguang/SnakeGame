@@ -1,4 +1,4 @@
-package gameScore;
+package util;
 
 public class Score {
     int score=0;
